@@ -42,8 +42,8 @@
                             </tr>
                         </table>
                     </td>
-                    <td class="loginPage">
-                        &nbsp;&nbsp;&nbsp;Login 
+                    <td class="giffy">
+                        <img src="/SpringEmpProject/computerlogin.gif" />
                     </td>
                 </tr>
             </table>
