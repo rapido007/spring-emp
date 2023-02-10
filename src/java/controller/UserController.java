@@ -5,16 +5,24 @@
  */
 package controller;
 
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
 
 /**
  *
  * @author pc
  */
-@RequestMapping("load")
+@Controller
 public class UserController {
     public UserController()
     {
         System.out.println("UserController default Browser");
+    }
+    @RequestMapping("load")
+    public ModelAndView loadHome()
+    {
+        ModelAndView mv = new ModelAndView("home");
+        return mv;
     }
 }
