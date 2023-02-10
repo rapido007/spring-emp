@@ -19,7 +19,7 @@
                     <td>
                         <table bgcolor="white" class="inner-tab">
                             <tr>
-                                <td class="text-login">
+                                <td class="text-login" align="center">
                                     Email ID :
                                 </td>
                                 <td>
@@ -27,7 +27,7 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td class="text-login">
+                                <td class="text-login" align="center">
                                     Password :
                                 </td>
                                 <td>

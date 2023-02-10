@@ -13,13 +13,37 @@
         <link href="/SpringEmpProject/style.css" rel="stylesheet" />
     </head>
     <body bgcolor="#4285F4">
-        <form action="">
+        <form action="signupdata.htm">
             <table class="main-table">
                 <tr>
                     <td>
                         <table bgcolor="white" class="inner-tab">
                             <tr>
-                                <td class="text-login">
+                                <td class="text-login" align="center">
+                                    Name :
+                                </td>
+                                <td>
+                                    <input type="text" name="uname" class="field-login" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-login" align="center">
+                                    Age :
+                                </td>
+                                <td>
+                                    <input type="number" name="age" class="field-login" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-login" align="center">
+                                    Mobile No. :
+                                </td>
+                                <td>
+                                    <input type="text" name="phone" class="field-login" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-login" align="center">
                                     Email ID :
                                 </td>
                                 <td>
@@ -27,8 +51,8 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td class="text-login">
-                                    Password :
+                                <td class="text-login" align="center">
+                                    Create Password :
                                 </td>
                                 <td>
                                     <input type="password" name="pass" class="field-login" />
@@ -36,7 +60,7 @@
                             </tr>
                             <tr>
                                 <td colspan="2" align="center">
-                                    <input type="submit" value="Login" class="subbtn" />
+                                    <input type="submit" value="Submit" class="subbtn" />
                                     <input type="reset" value="Clear" class="subbtn" />
                                 </td>
                             </tr>

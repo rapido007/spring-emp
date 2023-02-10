@@ -11,19 +11,10 @@ package model;
  */
 public class User {
     private String uname;
-    private String pass;
     private int age;
-    private double basic;
-    private int empid;
+    private double phone;
     private String email;
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
+    private String pass;
 
     public String getUname() {
         return uname;
@@ -31,14 +22,6 @@ public class User {
 
     public void setUname(String uname) {
         this.uname = uname;
-    }
-
-    public String getPass() {
-        return pass;
-    }
-
-    public void setPass(String pass) {
-        this.pass = pass;
     }
 
     public int getAge() {
@@ -49,20 +32,28 @@ public class User {
         this.age = age;
     }
 
-    public double getBasic() {
-        return basic;
+    public double getPhone() {
+        return phone;
     }
 
-    public void setBasic(double basic) {
-        this.basic = basic;
+    public void setPhone(double phone) {
+        this.phone = phone;
     }
 
-    public int getEmpid() {
-        return empid;
+    public String getPass() {
+        return pass;
     }
 
-    public void setEmpid(int empid) {
-        this.empid = empid;
+    public void setPass(String pass) {
+        this.pass = pass;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
     
 }
