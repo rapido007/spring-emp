@@ -32,7 +32,7 @@
                     <div class="container">
                         <div class="child">
                             <img src="/SpringEmpProject/man.png" /><br>
-                            <a href="">
+                            <a href="login.htm">
                                 <button class="btn">
                                     <img src="/SpringEmpProject/login.png" height="20px" /> Login
                                 </button>
@@ -40,7 +40,7 @@
                         </div>
                         <div class="child">
                             <img src="/SpringEmpProject/woman.png" /><br>
-                            <a href="">
+                            <a href="signup.htm">
                                 <button class="btn">
                                     <img src="/SpringEmpProject/signup.png" height="20px" /> Sign Up
                                 </button>

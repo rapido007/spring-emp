@@ -15,6 +15,15 @@ public class User {
     private int age;
     private double basic;
     private int empid;
+    private String email;
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
 
     public String getUname() {
         return uname;

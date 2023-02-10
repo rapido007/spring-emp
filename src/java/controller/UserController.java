@@ -25,4 +25,16 @@ public class UserController {
         ModelAndView mv = new ModelAndView("home");
         return mv;
     }
+    @RequestMapping("login")
+    public ModelAndView login()
+    {
+        ModelAndView mv = new ModelAndView("login");
+        return mv;
+    }
+    @RequestMapping("signup")
+    public ModelAndView signUp()
+    {
+        ModelAndView mv = new ModelAndView("signup");
+        return mv;
+    }
 }
