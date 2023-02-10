@@ -13,7 +13,7 @@
         <link href="/SpringEmpProject/style.css" rel="stylesheet" />
     </head>
     <body bgcolor="#4285F4">
-        <form action="">
+        <form action="logindata.htm">
             <table class="main-table">
                 <tr>
                     <td>
@@ -44,6 +44,13 @@
                     </td>
                     <td class="giffy">
                         <img src="/SpringEmpProject/computerlogin.gif" />
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <a href="load.htm">
+                            <img src="/SpringEmpProject/home.gif" />
+                        </a>
                     </td>
                 </tr>
             </table>

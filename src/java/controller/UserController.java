@@ -10,6 +10,7 @@ import model.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
 /**
@@ -47,5 +48,36 @@ public class UserController {
         ModelAndView mv = new ModelAndView("success");
         list.add(u);
         return mv;
+    }
+    @RequestMapping("logindata")
+    public ModelAndView loginDataRedirect(@RequestParam String email,@RequestParam String pass)
+    {
+        String check = check(email, pass);
+        ModelAndView mv = new ModelAndView(check);
+        return mv;
+    }
+    public String check(String email,String pass)
+    {
+        boolean b = false;
+        for(int i=0;i<list.size();i++)
+        {
+            User u = list.get(i);
+            String s1 = u.getEmail();
+            String p1 = u.getPass();
+            if(email.equals(s1) && pass.equals(p1))
+            {
+                b=true;
+            }
+        }
+        if(b==true)
+        {
+            String t1 ="sclogin";
+            return t1;
+        }
+        else
+        {
+            String t2 ="scfail";
+            return t2;
+        }
     }
 }

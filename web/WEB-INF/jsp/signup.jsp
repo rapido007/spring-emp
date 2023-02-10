@@ -70,6 +70,13 @@
                         <img src="/SpringEmpProject/computersignup.gif" />
                     </td>
                 </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <a href="load.htm">
+                            <img src="/SpringEmpProject/home.gif" />
+                        </a>
+                    </td>
+                </tr>
             </table>
         </form>
     </body>

@@ -10,8 +10,28 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
+        <link href="/SpringEmpProject/style.css" rel="stylesheet" />
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <body bgcolor="#4285F4">
+        <form action="">
+            <table class="main-table">
+                <tr>
+                    <td class="loginPage">
+                        Data<br> Saved<br> Successfully
+                    </td>
+                    <td>
+                        <img src="/SpringEmpProject/Bingo.gif" />
+                    </td>
+                </tr>    
+                <tr>
+                    <td colspan="2" align="center">
+                        <a href="load.htm">
+                            <img src="/SpringEmpProject/home.gif" />
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </form>
     </body>
 </html>
