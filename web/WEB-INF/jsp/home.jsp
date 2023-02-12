@@ -24,7 +24,7 @@
             <tr>
                 <td align="center" class="brand-tagline">
                     A <b>Realtime</b>, data managing platform for employess and 
-                    companies to track their salary checks and other bills.
+                    companies to track their job applications.
                 </td>
             </tr>
             <tr>
