@@ -6,7 +6,9 @@
 package controller;
 
 import java.util.ArrayList;
+import model.Employee;
 import model.User;
+import org.springframework.context.ApplicationContext;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -19,6 +21,18 @@ import org.springframework.web.servlet.ModelAndView;
  */
 @Controller
 public class UserController {
+    public ArrayList<Employee> epList;
+    public EmployeeController ep;
+    private ApplicationContext context;
+
+    public ApplicationContext getContext() {
+        return context;
+    }
+
+    public void setContext(ApplicationContext context) {
+        this.context = context;
+    }
+    
     public ArrayList<User> list = new ArrayList<>();
     User us1;
     public UserController()
@@ -55,6 +69,10 @@ public class UserController {
     {
         String check = check(email, pass);
         ModelAndView mv = new ModelAndView(check);
+        Object obj2 = context.getBean("c2");
+        ep = (EmployeeController)obj2;
+        epList = ep.eList;
+        mv.addObject("epmList",epList);
         mv.addObject("fuser", us1);
         return mv;
     }

@@ -36,7 +36,7 @@
           class="org.springframework.web.servlet.mvc.ParameterizableViewController"
           p:viewName="index" />
     
-    <bean name="c1" class="controller.UserController"  />
+    <bean name="c1" class="controller.UserController" autowire="byType"  />
     <bean name="c2" class="controller.EmployeeController" />
     <bean name="c3" class="controller.AdminController" autowire="byType" />
 

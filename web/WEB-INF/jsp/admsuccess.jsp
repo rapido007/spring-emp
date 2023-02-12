@@ -5,7 +5,7 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="s" %>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="a" %>
 <!DOCTYPE html>
 <html>
     <head>
@@ -16,9 +16,9 @@
     <body>
         <body bgcolor="#4285F4">
         <center>
-                        <a href="../index.htm">
-                            <img src="/SpringEmpProject/home.gif" class="rec-home" />
-                        </a>
+            <a href="../index.htm">
+                <img src="/SpringEmpProject/home.gif" class="rec-home" />
+            </a>
         </center>
         <form action="">
             <table class="main-table" width="90%">
@@ -37,7 +37,7 @@
                                 <td align="center"><b>Email</b></td>
                                 <td align="center"><b>Password</b></td>
                             </tr>
-                            <s:forEach items="${userList}" var="u">
+                            <a:forEach items="${userList}" var="u">
                                 <tr>
                                     <td align="center" class="user-td">${u.uname}</td>
                                     <td align="center" class="user-td">${u.age}</td>
@@ -45,7 +45,7 @@
                                     <td align="center" class="user-td">${u.email}</td>
                                     <td align="center" class="user-td">${u.pass}</td>
                                 </tr>
-                            </s:forEach>
+                            </a:forEach>
                         </table>
                     </td>
                 </tr>    
@@ -69,20 +69,20 @@
                                 <td align="center"><b>Email</b></td>
                                 <td align="center"><b>Password</b></td>
                             </tr>
-                            <s:forEach items="${empyList}" var="e">
+                            <a:forEach items="${empyList}" var="ep">
                                 <tr>
-                                    <td align="center" class="user-td">${e.ename}</td>
-                                    <td align="center" class="user-td">${e.eage}</td>
-                                    <td align="center" class="user-td">${e.ephone}</td>
-                                    <td align="center" class="user-td">${e.eposition}</td>
-                                    <td align="center" class="user-td">${e.eskills}</td>
-                                    <td align="center" class="user-td">${e.esal}</td>
-                                    <td align="center" class="user-td">${e.eexpsal}</td>
-                                    <td align="center" class="user-td">${e.eexp}</td>
-                                    <td align="center" class="user-td">${e.eemail}</td>
-                                    <td align="center" class="user-td">${e.epass}</td>
+                                    <td align="center" class="user-td">${ep.ename}</td>
+                                    <td align="center" class="user-td">${ep.eage}</td>
+                                    <td align="center" class="user-td">${ep.ephone}</td>
+                                    <td align="center" class="user-td">${ep.eposition}</td>
+                                    <td align="center" class="user-td">${ep.eskills}</td>
+                                    <td align="center" class="user-td">${ep.esal}</td>
+                                    <td align="center" class="user-td">${ep.eexpsal}</td>
+                                    <td align="center" class="user-td">${ep.eexp}</td>
+                                    <td align="center" class="user-td">${ep.eemail}</td>
+                                    <td align="center" class="user-td">${ep.epass}</td>
                                 </tr>
-                            </s:forEach>
+                            </a:forEach>
                         </table>
                     </td>
                 </tr>

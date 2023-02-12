@@ -5,6 +5,7 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="e" %>
 <!DOCTYPE html>
 <html>
     <head>
@@ -72,55 +73,36 @@
                         </table>
                     </td>
                     <td align="center">
-                        <table class="emp-name">
+                        <table width="90%" class="rec-table">
                             <tr>
-                                <td class="img-div-container" align="center">
-                                    <img src="/SpringEmpProject/vlogger.gif" height="50px" />
-                                    &nbsp;Job Profile
-                                    <table>
-                                        <tr>
-                                            <td class="pogo" align="center">
-                                                Position:
-                                            </td>
-                                            <td class="pogo" align="center">
-                                                ${femp.eposition}
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="pogo" align="center">
-                                                Skills: 
-                                            </td>
-                                            <td class="pogo" align="center">
-                                                ${femp.eskills}
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="pogo" align="center">
-                                                Current Salary: 
-                                            </td>
-                                            <td class="pogo" align="center">
-                                                ${femp.esal}
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="pogo" align="center">
-                                                Expected Salary: 
-                                            </td>
-                                            <td class="pogo" align="center">
-                                                ${femp.eexpsal}
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="pogo" align="center">
-                                                Experience: 
-                                            </td>
-                                            <td class="pogo" align="center">
-                                                ${femp.eexp}
-                                            </td>
-                                        </tr>
-                                    </table>
+                                <td colspan="10" align="center">
+                                    <h2><u>Job Applications</u></h2>
                                 </td>
                             </tr>
+                            <tr>
+                                <td align="center"><b>Name</b></td>
+                                <td align="center"><b>Age</b></td>
+                                <td align="center"><b>Mobile No.</b></td>
+                                <td align="center"><b>Position</b></td>
+                                <td align="center"><b>Skills</b></td>
+                                <td align="center"><b>Current Salary</b></td>
+                                <td align="center"><b>Expected Salary</b></td>
+                                <td align="center"><b>Experience</b></td>
+                                <td align="center"><b>Email</b></td>
+                            </tr>
+                            <e:forEach items="${epmList}" var="e">
+                                <tr>
+                                    <td align="center" class="user-td">${e.ename}</td>
+                                    <td align="center" class="user-td">${e.eage}</td>
+                                    <td align="center" class="user-td">${e.ephone}</td>
+                                    <td align="center" class="user-td">${e.eposition}</td>
+                                    <td align="center" class="user-td">${e.eskills}</td>
+                                    <td align="center" class="user-td">${e.esal}</td>
+                                    <td align="center" class="user-td">${e.eexpsal}</td>
+                                    <td align="center" class="user-td">${e.eexp}</td>
+                                    <td align="center" class="user-td">${e.eemail}</td>
+                                </tr>
+                            </e:forEach>
                         </table>
                     </td>
                 </tr>
