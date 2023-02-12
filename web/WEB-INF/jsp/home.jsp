@@ -55,7 +55,7 @@
             <tr>
                 <td align="center">
                         <a href="../index.htm">
-                            <img src="/SpringEmpProject/home.gif" />
+                            <img src="/SpringEmpProject/ehome.gif" height="40px" />
                         </a>
                 </td>
             </tr>

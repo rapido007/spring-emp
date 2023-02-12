@@ -2,30 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/C:/Users/pc/Documents/NetBeansProjects/SpringEmpProject/src/java/controller/EmployeeController.java</file>
-            <file>file:/C:/Users/pc/Documents/NetBeansProjects/SpringEmpProject/web/WEB-INF/jsp/index.jsp</file>
-            <file>file:/C:/Users/pc/Documents/NetBeansProjects/SpringEmpProject/web/WEB-INF/jsp/signup.jsp</file>
-            <file>file:/C:/Users/pc/Documents/NetBeansProjects/SpringEmpProject/web/WEB-INF/jsp/empsignup.jsp</file>
-            <file>file:/C:/Users/pc/Documents/NetBeansProjects/SpringEmpProject/src/java/controller/UserController.java</file>
-            <file>file:/C:/Users/pc/Documents/NetBeansProjects/SpringEmpProject/web/WEB-INF/dispatcher-servlet.xml</file>
-            <file>file:/C:/Users/pc/Documents/NetBeansProjects/SpringEmpProject/web/woman.png</file>
-            <file>file:/C:/Users/pc/Documents/NetBeansProjects/SpringEmpProject/web/WEB-INF/jsp/efail.jsp</file>
-            <file>file:/C:/Users/pc/Documents/NetBeansProjects/SpringEmpProject/web/signup.png</file>
-            <file>file:/C:/Users/pc/Documents/NetBeansProjects/SpringEmpProject/web/redirect.jsp</file>
-            <file>file:/C:/Users/pc/Documents/NetBeansProjects/SpringEmpProject/web/WEB-INF/jsp/emphome.jsp</file>
-            <file>file:/C:/Users/pc/Documents/NetBeansProjects/SpringEmpProject/src/java/model/User.java</file>
-            <file>file:/C:/Users/pc/Documents/NetBeansProjects/SpringEmpProject/web/WEB-INF/jsp/success.jsp</file>
-            <file>file:/C:/Users/pc/Documents/NetBeansProjects/SpringEmpProject/web/WEB-INF/jsp/login.jsp</file>
-            <file>file:/C:/Users/pc/Documents/NetBeansProjects/SpringEmpProject/web/WEB-INF/jsp/empsuccess.jsp</file>
-            <file>file:/C:/Users/pc/Documents/NetBeansProjects/SpringEmpProject/web/style.css</file>
-            <file>file:/C:/Users/pc/Documents/NetBeansProjects/SpringEmpProject/web/WEB-INF/applicationContext.xml</file>
-            <file>file:/C:/Users/pc/Documents/NetBeansProjects/SpringEmpProject/web/WEB-INF/jsp/emplogin.jsp</file>
-            <file>file:/C:/Users/pc/Documents/NetBeansProjects/SpringEmpProject/web/WEB-INF/jsp/esclogin.jsp</file>
-            <file>file:/C:/Users/pc/Documents/NetBeansProjects/SpringEmpProject/web/WEB-INF/jsp/home.jsp</file>
-            <file>file:/C:/Users/pc/Documents/NetBeansProjects/SpringEmpProject/src/java/model/Employee.java</file>
-            <file>file:/C:/Users/pc/Documents/NetBeansProjects/SpringEmpProject/web/WEB-INF/jsp/scfail.jsp</file>
-            <file>file:/C:/Users/pc/Documents/NetBeansProjects/SpringEmpProject/web/WEB-INF/jsp/sclogin.jsp</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>

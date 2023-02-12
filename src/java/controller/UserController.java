@@ -20,6 +20,7 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class UserController {
     public ArrayList<User> list = new ArrayList<>();
+    User us1;
     public UserController()
     {
         System.out.println("UserController default constructor");
@@ -54,6 +55,7 @@ public class UserController {
     {
         String check = check(email, pass);
         ModelAndView mv = new ModelAndView(check);
+        mv.addObject("fuser", us1);
         return mv;
     }
     public String check(String email,String pass)
@@ -67,6 +69,7 @@ public class UserController {
             if(email.equals(s1) && pass.equals(p1))
             {
                 b=true;
+                us1 = u;
             }
         }
         if(b==true)

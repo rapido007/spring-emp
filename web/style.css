@@ -51,6 +51,7 @@ and open the template in the editor.
     border: 2px solid #FF5A5F;
     border-radius: 10px;
     margin-top: 40px;
+    padding: 4px;
 }
 .btn:hover{
     font-size: 30px;
@@ -122,4 +123,26 @@ and open the template in the editor.
 }
 .rec-home{
     border-radius: 20px;
+}
+
+.img-div-container{
+    border: 4px double #C13584;
+    background-color: white;
+    font-size: 40px;
+    font-family: monospace;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 0;
+    
+}
+.emp-name{
+    margin-top: 20px;
+}
+.pogo{
+    
+    background-color: white;
+    font-size: 25px;
+    font-family: monospace;
+    padding: 5px;
+    margin: 0;
 }

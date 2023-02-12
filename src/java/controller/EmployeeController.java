@@ -20,6 +20,7 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class EmployeeController {
     public ArrayList<Employee> eList = new ArrayList<Employee>();
+    Employee empus1;
     public EmployeeController()
     {
         System.out.println("EmpController default constructor");
@@ -54,6 +55,7 @@ public class EmployeeController {
     {
         String status = check(eemail, epass);
         ModelAndView mv = new ModelAndView(status);
+        mv.addObject("femp",empus1);
         return mv;
     }
     public String check(String email,String pass)
@@ -67,6 +69,7 @@ public class EmployeeController {
             if(email.equals(em1) && pass.equals(ep1))
             {
                 b=true;
+                empus1=e1;
             }
         }
         if(b==true)
