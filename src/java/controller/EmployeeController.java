@@ -19,7 +19,7 @@ import org.springframework.web.servlet.ModelAndView;
  */
 @Controller
 public class EmployeeController {
-    private ArrayList<Employee> eList = new ArrayList<Employee>();
+    public ArrayList<Employee> eList = new ArrayList<Employee>();
     public EmployeeController()
     {
         System.out.println("EmpController default constructor");

@@ -12,7 +12,7 @@ package model;
 public class User {
     private String uname;
     private int age;
-    private double phone;
+    private long phone;
     private String email;
     private String pass;
 
@@ -32,12 +32,20 @@ public class User {
         this.age = age;
     }
 
-    public double getPhone() {
+    public long getPhone() {
         return phone;
     }
 
-    public void setPhone(double phone) {
+    public void setPhone(long phone) {
         this.phone = phone;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     public String getPass() {
@@ -48,12 +56,6 @@ public class User {
         this.pass = pass;
     }
 
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
+    
     
 }

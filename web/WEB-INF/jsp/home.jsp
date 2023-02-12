@@ -52,6 +52,13 @@
                     </div>
                 </td>
             </tr>
+            <tr>
+                <td align="center">
+                        <a href="../index.htm">
+                            <img src="/SpringEmpProject/home.gif" />
+                        </a>
+                </td>
+            </tr>
         </table>
     </body>
 </html>

@@ -19,7 +19,7 @@ import org.springframework.web.servlet.ModelAndView;
  */
 @Controller
 public class UserController {
-    private ArrayList<User> list = new ArrayList<>();
+    public ArrayList<User> list = new ArrayList<>();
     public UserController()
     {
         System.out.println("UserController default constructor");

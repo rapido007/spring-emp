@@ -109,3 +109,17 @@ and open the template in the editor.
     border: 2px solid #00B2FF;
     border-radius: 10px;
 }
+.rec-table{
+    border: 2px solid #E1306C;
+    border-radius: 20px;
+    background-color: #FAF2E1;
+    padding: 5px;
+    margin: 10px;
+}
+.user-td{
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.rec-home{
+    border-radius: 20px;
+}
