@@ -107,12 +107,50 @@
                     </td>
                 </tr>
                 <tr>
+                    <td>
+                        <table>
+                            <tr>
+                                <td class="img-div-container" align="center">
+                                    <img src="/SpringEmpProject/checklist.gif" height="50px" />
+                                    &nbsp;Select Profile
+                                    <form action="">
+                                        <table>
+                                            <tr>
+                                                <td class="fogo">
+                                                    Select Candidate
+                                                </td>
+                                                <td>
+                                                    <select class="fogo">
+                                                        <e:forEach items="${epmList}" var="x">
+                                                            <option>${x.ename}</option>
+                                                        </e:forEach>
+                                                    </select>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="fogo">
+                                                    Schedule an interview:
+                                                </td>
+                                                <td class="fogo">
+                                                    <a href="https://calendar.google.com/calendar/u/0/r/eventedit?vcon=meet&dates=now&hl=en" target="black">
+                                                        Click Here to schedule interview
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </form>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
                     <td colspan="4" align="center">
                         <a href="../index.htm">
                                 <button class="btn">
                                     <img src="/SpringEmpProject/logout.png" height="30px" /> Log Out
                                 </button>
-                            </a>
+                        </a>
                     </td>
                 </tr>
             </table>
