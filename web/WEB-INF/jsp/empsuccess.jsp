@@ -18,7 +18,7 @@
             <table class="main-table">
                 <tr>
                     <td colspan="2" align="center">
-                        <a href="load.htm">
+                        <a href="eload.htm">
                             <img src="/SpringEmpProject/home.gif" />
                         </a>
                     </td>

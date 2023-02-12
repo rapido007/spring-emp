@@ -13,11 +13,11 @@
         <link href="/SpringEmpProject/style.css" rel="stylesheet" />
     </head>
     <body bgcolor="#4285F4">
-        <form action="logindata.htm">
+        <form action="elogindata.htm">
             <table class="main-table">
                 <tr>
                     <td colspan="2" align="center">
-                        <a href="load.htm">
+                        <a href="eload.htm">
                             <img src="/SpringEmpProject/home.gif" />
                         </a>
                     </td>
@@ -30,7 +30,7 @@
                                     Email ID :
                                 </td>
                                 <td>
-                                    <input type="text" name="email" class="field-login" />
+                                    <input type="text" name="eemail" class="field-login" />
                                 </td>
                             </tr>
                             <tr>
@@ -38,7 +38,7 @@
                                     Password :
                                 </td>
                                 <td>
-                                    <input type="password" name="pass" class="field-login" />
+                                    <input type="password" name="epass" class="field-login" />
                                 </td>
                             </tr>
                             <tr>

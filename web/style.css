@@ -30,7 +30,7 @@ and open the template in the editor.
 .container
 {
     display: flex;
-    justify-content: row;
+    justify-content: center;
 }
 .child{
     height: 450px;
@@ -102,4 +102,10 @@ and open the template in the editor.
 }
 .giffy{
     padding: 5px;
+}
+.select-emp{
+    height: 36px;
+    width: 260px;
+    border: 2px solid #00B2FF;
+    border-radius: 10px;
 }

@@ -22,7 +22,7 @@ public class UserController {
     private ArrayList<User> list = new ArrayList<>();
     public UserController()
     {
-        System.out.println("UserController default Browser");
+        System.out.println("UserController default constructor");
     }
     @RequestMapping("load")
     public ModelAndView loadHome()

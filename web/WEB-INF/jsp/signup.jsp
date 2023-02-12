@@ -16,6 +16,13 @@
         <form action="signupdata.htm">
             <table class="main-table">
                 <tr>
+                    <td colspan="2" align="center">
+                        <a href="load.htm">
+                            <img src="/SpringEmpProject/home.gif" />
+                        </a>
+                    </td>
+                </tr>
+                <tr>
                     <td>
                         <table bgcolor="white" class="inner-tab">
                             <tr>
@@ -68,13 +75,6 @@
                     </td>
                     <td class="giffy">
                         <img src="/SpringEmpProject/computersignup.gif" />
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="2" align="center">
-                        <a href="load.htm">
-                            <img src="/SpringEmpProject/home.gif" />
-                        </a>
                     </td>
                 </tr>
             </table>

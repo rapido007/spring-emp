@@ -37,5 +37,6 @@
           p:viewName="index" />
     
     <bean name="c1" class="controller.UserController" />
+    <bean name="c2" class="controller.EmployeeController" />
 
 </beans>

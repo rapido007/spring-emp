@@ -18,7 +18,7 @@
                 <td align="center" class="brand-name">
                     <img src="/SpringEmpProject/logo.png" height="100px" />
                     <br>
-                    Recruiter Workspace
+                    Employee Workspace
                 </td>
             </tr>
             <tr>
@@ -32,7 +32,7 @@
                     <div class="container">
                         <div class="child">
                             <img src="/SpringEmpProject/man.png" /><br>
-                            <a href="login.htm">
+                            <a href="emplogin.htm">
                                 <button class="btn">
                                     <img src="/SpringEmpProject/login.png" height="20px" /> Login
                                 </button>
@@ -40,7 +40,7 @@
                         </div>
                         <div class="child">
                             <img src="/SpringEmpProject/woman.png" /><br>
-                            <a href="signup.htm">
+                            <a href="esignup.htm">
                                 <button class="btn">
                                     <img src="/SpringEmpProject/signup.png" height="20px" /> Sign Up
                                 </button>
